@@ -57,8 +57,7 @@ gulp.task('watch', ['build'], function() {
     }
 
     $.livereload({
-        start: true,
-        reloadPage: "/"
+        start: true
     });
 
     gulp.watch("source/less/**", ['build:less', pop])
