@@ -1,6 +1,6 @@
-# Bootstrap-stein
+# Bootstrap-stein, with [Demo here](http://alvarto.github.io/Bootstrap-stein/)
 
-A bootstrap theme and some UI resolution about management system.
+A bootstrap theme. And some UI resolution about management system.
 
 ## "Stein" the Theme
 
@@ -16,9 +16,10 @@ To compile this theme successfully, you need to move `source/less/variables.less
 
 ## Large table display
 
-When you display a super large table, usual means to freeze table top/left section might fail due to 2-way overflow direction. This demo shows how to tear a table down to 1-way direction scrolling by simply providing column-hiding functionality.
+When you display a super large table, usual means to freeze table top/left section might fail due to 2-way overflow direction. This demo shows how to tear a table down to 1-way scrolling by simply providing column-hiding functionality.
 
 ### Technics
 
 - Dynamic `<style>` inject
 - String-based template (Minimun Implementation)
+
